@@ -33,7 +33,7 @@ const routes = [
     },
 // Menghapus catatan
     {
-        methos: 'DELETE',
+        method: 'DELETE',
         path: '/notes/{id}',
         handler: deleteNoteByIdHandler,
     },
